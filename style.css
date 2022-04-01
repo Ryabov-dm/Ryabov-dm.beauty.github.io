@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  color: white;
+  background-color: white;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  max-width: 1440px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 128px;
+  background-color: black;
+}
+
+#footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 435px;
+  font-size: 14px;
+  padding: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+  color: grey;
+}
+
+#credits {
+  padding: 50px;
+  display:flex;
+  line-height: 28px;
+  font-size: 14px;
+  align-items: flex-start;
+  flex-direction: column;
+  color: grey;
+}
+
+.style-and-beauty {
+  width: 1440px;
+  height: 800px;
+  background-image: url('img/IMAGE.png');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.style-and-beauty img {
+  margin: 20px;
+}
+
+.style-and-beauty nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  width: 350px;
+  margin: 20px;
+  list-style: none;
+}
+
+.living-room-girls {
+  width: 1440px;
+  height: 800px;
+  background-image: url('img/IMAGE (1).png');
+  background-size: cover;
+}
+
+.water-flowers {
+  width: 1440px;
+  height: 800px;
+  background-image: url('img/IMAGE (2).png');
+  background-size: cover;
+}
+
+.sunlight {
+  width: 1440px;
+  height: 800px;
+  background-image: url('img/IMAGE (3).png');
+  background-size: cover;
+}
+
+.looking {
+  width: 1440px;
+  height: 800px;
+  background-image: url('img/IMAGE (4).png');
+  background-size: cover;
+}
+
+.amazing {
+  background-color: black;
+  height: 435px;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.content-header {
+  margin-top: 323px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 154px;
+}
+
+.flowers-header {
+  width: 870px;
+  margin-top: 200px;
+}
+
+.content-mini-header {
+  margin-top: 50px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+}
+
+.content-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  margin-top: 150px;
+  font-size: 14px;
+  width: 160px;
+  height: 44px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.flowers {
+  margin-top: 110px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  max-height: 800px;
+}
+
+.content-amazing {
+  max-height: 435px;
+}
+
+.amazing-header {
+  margin-top: 120px;
+}
+
+.amazing-mini-header {
+  margin-top: 15px;
+}
+
+.amazing-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  margin-top: 70px;
+  width: 186px;
+  height: 44px;
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
